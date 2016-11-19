@@ -1,0 +1,89 @@
+/* app/styles.css */
+
+body {
+  background-color: #073642;
+  font-family: 'Inconsolata', monospace;
+  color: #93a1a1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.nav {
+  padding: 0px 10px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  font-family: 'Delius', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.red {
+  color: #dc322f;
+}
+.orange {
+  color: #cb4b16;
+}
+.yellow {
+  color: #b58900;
+}
+.yellow2 {
+  color: #9F9000;
+}
+.gold {
+  color: #BF6D0A;
+}
+.green {
+  color: #859900;
+}
+.blue {
+  color: #268bd2;
+}
+.cyan {
+  color: #2aa198;
+}
+.violet {
+  color: #6c71c4;
+}
+.thistle {
+  color: #A054A3;
+}
+.magenta {
+  color: #d33682;
+}
+.base-03 {
+  background-color: #002b36;
+}
+
+.logo img {
+  width: 50px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+.body {
+  background-color: #EEEEEE;
+  font-family: Lucida Grande, Helvetica, Arial;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 15px;
+}
+
+a {
+  color: #30cae9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
