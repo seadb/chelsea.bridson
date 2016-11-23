@@ -2,10 +2,11 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Layout from './components/Layout'
+import Routes from './components/Routes'
+
 
 ReactDOM.render(
-  <Layout />,
+  <Routes/>,
   document.getElementById('root')
 )
 

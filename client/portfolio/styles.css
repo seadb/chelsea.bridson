@@ -1,0 +1,20 @@
+.entry {
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  -moz-box-shadow:    2px 2px 2px 0px rgba(15,15,15,0.25);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(15,15,15,0.25);
+  box-shadow:         2px 2px 2px 0px rgba(15,15,15,0.25);
+}
+
+.entry-image img {
+  width: 100%;
+}
+
+
+.entry-image {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.portfolio {
+}
