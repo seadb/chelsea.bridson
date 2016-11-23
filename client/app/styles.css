@@ -2,8 +2,8 @@
 
 body {
   background-color: #073642;
-  font-family: 'Inconsolata', monospace;
   color: #93a1a1;
+  font-family: 'Inconsolata', monospace;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -11,19 +11,26 @@ body {
   padding: 0px 10px;
 }
 
+.layout {
+  width: 1000px;
+}
 .nav a {
-  color: black;
+  color: #93a1a1;
   text-decoration: none;
   vertical-align: middle;
+  padding: 0px 10px;
+  font-size: 18px;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   font-family: 'Delius', cursive;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
   color: white;
 }
@@ -71,12 +78,14 @@ body {
   vertical-align: middle;
 }
 
-.body {
-  background-color: #EEEEEE;
-  font-family: Lucida Grande, Helvetica, Arial;
-  font-size: 14px;
-  line-height: 1.6;
-  padding: 15px;
+.topbar {
+ text-align: right;
+ border-bottom: 1px solid #93a1a1;
+ padding: 5px 10px;
+}
+.content {
+  background-color: #073642;
+  border: 1px solid #93a1a1;
 }
 
 a {
