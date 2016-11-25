@@ -98,6 +98,7 @@ body {
 .window {
   background-color: #073642;
   border: 1px solid #93a1a1;
+  min-height: 600px;
 }
 .content {
   padding: 20px;
