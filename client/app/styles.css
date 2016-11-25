@@ -41,29 +41,41 @@ body {
 .orange {
   color: #cb4b16;
 }
+.gold {
+  color: #BF6D0A;
+}
 .yellow {
   color: #b58900;
 }
 .yellow2 {
   color: #9F9000;
 }
-.gold {
-  color: #BF6D0A;
+.snot {
+  color: #9D9100;
 }
 .green {
   color: #859900;
 }
-.blue {
-  color: #268bd2;
+.seafoam {
+  color: #589D4C;
 }
 .cyan {
   color: #2aa198;
+}
+.blue {
+  color: #268bd2;
+}
+.iris {
+  color: #497ECB;
 }
 .violet {
   color: #6c71c4;
 }
 .thistle {
   color: #A054A3;
+}
+.blush {
+ color: #BA4593;
 }
 .magenta {
   color: #d33682;
@@ -83,13 +95,16 @@ body {
  border-bottom: 1px solid #93a1a1;
  padding: 5px 10px;
 }
-.content {
+.window {
   background-color: #073642;
   border: 1px solid #93a1a1;
 }
+.content {
+  padding: 20px;
+}
 
 a {
-  color: #30cae9;
+  color: #268bd2;
   text-decoration: none;
 }
 
