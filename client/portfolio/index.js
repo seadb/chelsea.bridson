@@ -4,7 +4,8 @@ import styles from './styles.css';
 
 
 const Portfolio = () => ( 
-  <div className={styles.portfolio} >
+  <div className={"row "+styles.portfolio} >
+    <div className="col-xs-12 col-sm-6">
     <Entry
       name="Hennasea"
       image="hennasea.png"
@@ -13,6 +14,8 @@ const Portfolio = () => (
       github="seadb/hennasea"
       url="http://hennasea.net"
       />
+    </div>
+    <div className="col-xs-12 col-sm-6">
     <Entry
       name="Marquette Local Food"
       image="marquette-local-food.png"
@@ -20,6 +23,7 @@ const Portfolio = () => (
       technologies="React + Redux, Node, Express, Webpack"
       github="seadb/marquette-food"
     />
+    </div>
   </div>
 )
 
