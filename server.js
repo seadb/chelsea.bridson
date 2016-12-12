@@ -4,9 +4,15 @@ var config = require('./config');
 
 var app = express();
 
-app.use(express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + '/public'));
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
 const port = config[process.env.NODE_ENV]['port']
-app.listen(port, () => { 
-  console.log('Example app listening on port ' + port);
+const host = config[process.env.NODE_ENV]['host'];
+
+app.listen(port, host, () => {
+  console.log('Example app listening at '+ host + ':' + port);
 });
