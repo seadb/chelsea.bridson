@@ -22,6 +22,8 @@ const Portfolio = () => (
       description="Virtual directory for local food vendors in Marquette"
       technologies="React + Redux, Node, Express, Webpack"
       github="seadb/marquette-food"
+      url="http://marquettelocalfood.net"
+      />
     />
     </div>
   </div>
