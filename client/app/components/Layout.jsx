@@ -10,15 +10,7 @@ const Layout = (props) => (
       <Logo />
       <Nav/>
     </div>
-    <div className={styles.window} >
-      <div className={styles.topbar}>
-        <i className="fa fa-minus" aria-hidden="true"></i>&nbsp;&nbsp;
-        <i className="fa fa-times" aria-hidden="true"></i>
-      </div>
-      <div className={styles.content} >
-        {props.children}
-      </div>
-    </div>
+    {props.children}
   </div>
 )
 

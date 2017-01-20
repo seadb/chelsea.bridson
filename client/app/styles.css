@@ -6,6 +6,7 @@ body {
   font-family: 'Inconsolata', monospace;
   font-size: 16px;
   line-height: 1.6;
+  padding-left: 15px;
 }
 .nav {
   padding: 0px 10px;
@@ -20,6 +21,11 @@ body {
   vertical-align: middle;
   padding: 0px 10px;
   font-size: 18px;
+}
+
+a {
+  color: #93a1a1;
+  text-decoration: none;
 }
 
 .header {
@@ -91,10 +97,25 @@ body {
 }
 
 .topbar {
- text-align: right;
  border-bottom: 1px solid #93a1a1;
  padding: 5px 10px;
+ display: flex;
 }
+
+.filler {
+  width: 33%;
+}
+
+.title {
+  width: 33%;
+  text-align: center;
+}
+
+.controls {
+  width: 33%;
+  text-align: right;
+}
+
 .window {
   background-color: #073642;
   border: 1px solid #93a1a1;
@@ -105,7 +126,7 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: #93a1a1;
   text-decoration: none;
 }
 

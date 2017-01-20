@@ -1,16 +1,21 @@
 import React from 'react'
 import Pdf from 'react-pdf'
+import Window from '../app/components/Window'
 import styles from './styles.css'
+import basestyles from '../app/styles.css'
 
 const Resume = () => (
-    <div className={styles.resume}>
-      <a href="/public/cv.pdf" target="_blank">
-        <i className="fa fa-download" aria-hidden="true"></i>
-        <div>
-          <Pdf file="/public/cv.pdf" scale="1.5"/>
+  <Window title="Resume">
+      <div>
+        <div className={styles.resume}>
+          <a href="/public/cv.pdf" target="_blank">
+            <div>
+              <Pdf file="/public/cv.pdf" scale="1.5"/>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
+      </div>
+    </Window>
   )
 
 export default Resume
