@@ -1,7 +1,7 @@
 var config = {
   production: {
     host: 'localhost',
-    port: '3000'
+    port: '8081'
   },
   development: {
     host: 'localhost',
