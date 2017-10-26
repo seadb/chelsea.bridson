@@ -8,6 +8,11 @@ body {
   line-height: 1.6;
   padding-left: 15px;
 }
+
+.larger {
+  font-size: 20px;
+}
+
 .nav {
   padding: 0px 10px;
 }
@@ -132,4 +137,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.svg {
+  font-size: 18px;
+  width: 1em;
+  height: 1em;
+}
+.svg:hover {
+  cursor: pointer;
+}
+.padded {
+  padding: 0px 7px;
 }

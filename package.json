@@ -8,11 +8,13 @@
     "compile": "webpack",
     "start": "node server.js > stdout.txt 2> stderr.txt &",
     "dev": "webpack-dev-server --progress --colors",
-    "watch": "webpack --progress --colors --watch"
+    "watch": "webpack --progress --colors --watch",
+    "publish": "git archive -v -o output.zip --format=zip HEAD"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clipboard": "^1.5.16",
     "express": "^4.14.0",
     "flexboxgrid": "^6.3.1",
     "normalize.css": "^5.0.0",

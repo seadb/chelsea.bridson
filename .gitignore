@@ -1,5 +1,9 @@
 node_modules/
 config.js
 public/bundle.js
+public/css
+public/js
 stderr.txt
 stdout.txt
+output.zip
+output/
