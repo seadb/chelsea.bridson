@@ -17,5 +17,5 @@ const port = config[process.env.NODE_ENV]['port']
 const host = config[process.env.NODE_ENV]['host'];
 
 app.listen(port, host, () => {
-  console.log('Example app listening at '+ host + ':' + port);
+  console.log('Homepage running at '+ host + ':' + port);
 });

@@ -22,6 +22,13 @@ const Contact = () => (
       Lyman Briggs college at MSU.  After my first year of classes I started
       to explore other majors.  After taking an introductory programming class,
       I decided to pursue a career in Computer Science.  
+			</p>
+			<p>
+			I am a full stack developer and I have worked on a variety of projects 
+			using all kinds of different techologies.
+      I love creating feature rich user-interfaces with React, CSS, and HTML.
+			I also have experience creating SQL database backed APIs with node, 
+			Python, and Perl.
       </p>
 
       <h2 className={styles.thistle}>interests</h2>
